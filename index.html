@@ -62,5 +62,55 @@
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
 
+<!-- Tabs Navigation -->
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+    <button class="tablinks" onclick="openTab(event, 'MachineLearning')">Machine Learning</button>
+    <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+    <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+</div>
+
+<!-- Content for Each Tab -->
+<div id="Home" class="tabcontent">
+    <h3>Home</h3>
+    <p>Welcome to my ePortfolio!</p>
+</div>
+
+<div id="MachineLearning" class="tabcontent">
+    <h3>Machine Learning</h3>
+    <p>Details about Machine Learning projects.</p>
+</div>
+
+<div id="Projects" class="tabcontent">
+    <h3>Projects</h3>
+    <p>Details about various projects.</p>
+</div>
+
+<div id="Contact" class="tabcontent">
+    <h3>Contact</h3>
+    <p>Get in touch with me!</p>
+</div>
+
+        
+<script>
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Default open tab
+document.getElementById("Home").style.display = "block";
+</script>
+
+        
     </body>
 </html>
