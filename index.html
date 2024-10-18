@@ -9,23 +9,21 @@
     </head>
     <body class="is-preload">
         
-<!-- Navigation Bar -->
-<nav id="navbar">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="machinelearning.html">Machine Learning</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+        <!-- Navigation Bar -->
+        <nav id="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#MachineLearning">Machine Learning</a></li>
+            </ul>
+        </nav>
 
-        <!-- Sidebar -->
+        <!-- Sidebar (Optional, can be removed if you want a cleaner layout) -->
         <section id="sidebar">
             <div class="inner">
                 <nav>
                     <ul>
                         <li><a href="#welcome">Welcome</a></li>
-                        <li><a href="machinelearning.html">Machine Learning</a></li>
+                        <li><a href="#MachineLearning">Machine Learning</a></li>
                     </ul>
                 </nav>
             </div>
@@ -34,13 +32,22 @@
         <!-- Wrapper -->
         <div id="wrapper">
 
-            <!-- Welcome -->
-            <section id="welcome" class="wrapper style1 fullscreen fade-up">
-                <div class="inner">
-                    <h1>Welcome to My ePortfolio</h1>
-                    <p>Hello! My name is Noora Alboinin. Welcome to my page; feel free to explore my work and learning journey.</p>
-                </div>
-            </section>
+            <!-- Tabs Navigation -->
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+                <button class="tablinks" onclick="openTab(event, 'MachineLearning')">Machine Learning</button>
+            </div>
+
+            <!-- Content for Each Tab -->
+            <div id="Home" class="tabcontent">
+                <h3>Home</h3>
+                <p>Welcome to my ePortfolio! Feel free to explore my work and learning journey in Machine Learning.</p>
+            </div>
+
+            <div id="MachineLearning" class="tabcontent">
+                <h3>Machine Learning</h3>
+                <p>Details about my Machine Learning projects and key learnings will be provided here.</p>
+            </div>
 
         </div>
 
@@ -62,55 +69,24 @@
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
 
-<!-- Tabs Navigation -->
-<div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
-    <button class="tablinks" onclick="openTab(event, 'MachineLearning')">Machine Learning</button>
-    <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
-    <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
-</div>
+        <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
 
-<!-- Content for Each Tab -->
-<div id="Home" class="tabcontent">
-    <h3>Home</h3>
-    <p>Welcome to my ePortfolio!</p>
-</div>
-
-<div id="MachineLearning" class="tabcontent">
-    <h3>Machine Learning</h3>
-    <p>Details about Machine Learning projects.</p>
-</div>
-
-<div id="Projects" class="tabcontent">
-    <h3>Projects</h3>
-    <p>Details about various projects.</p>
-</div>
-
-<div id="Contact" class="tabcontent">
-    <h3>Contact</h3>
-    <p>Get in touch with me!</p>
-</div>
-
-        
-<script>
-function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-
-// Default open tab
-document.getElementById("Home").style.display = "block";
-</script>
-
+        // Default open tab
+        document.getElementById("Home").style.display = "block";
+        </script>
         
     </body>
 </html>
