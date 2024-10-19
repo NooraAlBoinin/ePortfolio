@@ -20,9 +20,9 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    height: 90%;
-    width: 250px;
-    background-color: #E17085;  /* Sidebar background */
+    height: 100%;
+    width: 250px;  /* Sidebar width */
+    background-color: #D1495B;  /* Deep Coral for sidebar */
     color: white;
     padding-top: 20px;
     z-index: 1;
@@ -51,7 +51,7 @@ body {
 }
 
 #sidebar nav ul li a:hover {
-    background-color: #F16CA2;  /* Hover effect */
+    background-color: #FF6F61;  /* Muted Warm Red for hover */
     padding-left: 20px;  /* Slight movement when hovering */
 }
 
@@ -70,7 +70,7 @@ h1, h2, h3 {
 
 /* Buttons */
 .button {
-    background-color: #FFA6C9;  /* Light pink button color */
+    background-color: #FFC857;  /* Warm Yellow for button */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -79,7 +79,7 @@ h1, h2, h3 {
 }
 
 .button:hover {
-    background-color: #F16CA2;  /* Hover color for button */
+    background-color: #FF6F61;  /* Match hover color to sidebar hover */
 }
 
 /* Sections */
@@ -118,8 +118,8 @@ section {
     }
 
     #sidebar nav ul li:hover a {
-        font-size: 14px;
-        padding-left: 18px;
+        font-size: 16px;
+        padding-left: 20px;
     }
 
     #main-content {
@@ -129,7 +129,7 @@ section {
 
 /* Navigation Bar Styling */
 #navbar {
-    background-color: #E17085;  /* Match sidebar color */
+    background-color: #D1495B;  /* Match sidebar color */
     padding: 10px 20px;
     text-align: center;
 }
@@ -155,7 +155,7 @@ section {
 }
 
 #navbar ul li a:hover {
-    background-color: #F16CA2;  /* Hover effect for navbar */
+    background-color: #FF6F61;  /* Hover effect for navbar */
     border-radius: 4px;
 }
 
