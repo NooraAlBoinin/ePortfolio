@@ -27,6 +27,7 @@ body {
     padding-top: 20px;
     z-index: 1;
     transition: width 0.3s ease;
+    overflow-y: auto;  /* Add scrolling when content exceeds screen height */
 }
 
 /* Sidebar links */
@@ -58,26 +59,6 @@ body {
 #main-content {
     margin-left: 260px;  /* Leave space for sidebar */
     padding: 20px;
-}
-
-/* Responsive sidebar on smaller screens */
-@media (max-width: 768px) {
-    #sidebar {
-        width: 60px;
-    }
-
-    #sidebar nav ul li a {
-        font-size: 0;
-    }
-
-    #sidebar nav ul li:hover a {
-        font-size: 18px;
-        padding-left: 20px;
-    }
-
-    #main-content {
-        margin-left: 70px;
-    }
 }
 
 /* Headings */
@@ -129,7 +110,20 @@ section {
     }
 
     #sidebar {
-        font-size: 14px;
+        width: 60px;
+    }
+
+    #sidebar nav ul li a {
+        font-size: 0;
+    }
+
+    #sidebar nav ul li:hover a {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    #main-content {
+        margin-left: 70px;
     }
 }
 
