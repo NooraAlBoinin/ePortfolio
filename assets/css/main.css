@@ -46,7 +46,7 @@ body {
     color: white;
     text-decoration: none;
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     transition: background-color 0.3s, padding 0.3s;
 }
 
@@ -94,15 +94,15 @@ section {
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #wrapper {
