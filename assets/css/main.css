@@ -1,6 +1,6 @@
 /* Base Styles */
 body {
-    background-color: #f9f9f9;  /* Light background for modern look */
+    background-color: #f0f4f8;  /* Soft light blue background */
     color: #333;
     font-family: 'Open Sans', Arial, sans-serif;  /* Better readability */
     line-height: 1.6;
@@ -20,9 +20,9 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    height: 90%;
+    height: 80%;
     width: 250px;  /* Sidebar width */
-    background-color: #D1495B;  /* Deep Coral for sidebar */
+    background-color: #4C566A;  /* Cool Slate Gray */
     color: white;
     padding-top: 20px;
     z-index: 1;
@@ -51,7 +51,7 @@ body {
 }
 
 #sidebar nav ul li a:hover {
-    background-color: #FF6F61;  /* Muted Warm Red for hover */
+    background-color: #81A1C1;  /* Soft Blue for hover */
     padding-left: 20px;  /* Slight movement when hovering */
 }
 
@@ -63,14 +63,14 @@ body {
 
 /* Headings */
 h1, h2, h3 {
-    color: #2c3e50;
+    color: #2e3440;  /* Darker Slate Gray */
     font-family: 'Roboto Slab', serif;
     margin-bottom: 20px;
 }
 
 /* Buttons */
 .button {
-    background-color: #FFC857;  /* Warm Yellow for button */
+    background-color: #EBCB8B;  /* Warm Beige for button */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -79,7 +79,7 @@ h1, h2, h3 {
 }
 
 .button:hover {
-    background-color: #FF6F61;  /* Match hover color to sidebar hover */
+    background-color: #81A1C1;  /* Soft Blue for hover effect on buttons */
 }
 
 /* Sections */
@@ -129,7 +129,7 @@ section {
 
 /* Navigation Bar Styling */
 #navbar {
-    background-color: #D1495B;  /* Match sidebar color */
+    background-color: #4C566A;  /* Match sidebar color */
     padding: 10px 20px;
     text-align: center;
 }
@@ -155,7 +155,7 @@ section {
 }
 
 #navbar ul li a:hover {
-    background-color: #FF6F61;  /* Hover effect for navbar */
+    background-color: #81A1C1;  /* Hover effect for navbar */
     border-radius: 4px;
 }
 
@@ -190,4 +190,27 @@ section {
     padding: 20px;
     border: 1px solid #ccc;
     border-top: none;
+}
+
+/* Footer styling */
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4C566A;  /* Match the sidebar color */
+    padding: 10px 20px;
+    color: white;
+    text-align: left;
+    z-index: 1;
+}
+
+#footer .inner {
+    margin-left: 260px;  /* Push the content to the right to avoid overlap with the sidebar */
+}
+
+@media (max-width: 768px) {
+    #footer .inner {
+        margin-left: 70px;  /* Adjust for smaller screens */
+    }
 }
