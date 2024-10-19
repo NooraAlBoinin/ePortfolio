@@ -20,19 +20,25 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 200px;  /* Adjust width as needed */
-    background-color: #e0bbf4;  /* Lighter pastel purple */
+    height: 80%;
+    width: 250px;
+    background-color: #E17085;  /* Sidebar background */
     color: white;
     padding-top: 20px;
     z-index: 1;
     transition: width 0.3s ease;
-    overflow-y: auto;
+    overflow-y: auto;  /* Add scrolling when content exceeds screen height */
 }
 
 /* Sidebar links */
+#sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 #sidebar nav ul li {
-    padding: 10px;  /* Adjust padding for smaller sidebar */
+    padding: 12px;
     margin: 0;
 }
 
@@ -40,18 +46,18 @@ body {
     color: white;
     text-decoration: none;
     display: block;
-    font-size: 14px;  /* Reduced font size for sidebar */
+    font-size: 16px;
     transition: background-color 0.3s, padding 0.3s;
 }
 
 #sidebar nav ul li a:hover {
-    background-color: #d6a4f9;  /* Vivid pastel purple for hover effect */
-    padding-left: 15px;  /* Slight movement when hovering */
+    background-color: #F16CA2;  /* Hover effect */
+    padding-left: 20px;  /* Slight movement when hovering */
 }
 
 /* Main content margin to avoid overlap with sidebar */
 #main-content {
-    margin-left: 210px;  /* Leave space for sidebar */
+    margin-left: 260px;  /* Leave space for sidebar */
     padding: 20px;
 }
 
@@ -64,7 +70,7 @@ h1, h2, h3 {
 
 /* Buttons */
 .button {
-    background-color: #cda7ff;  /* Soft lavender for buttons */
+    background-color: #FFA6C9;  /* Light pink button color */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -73,7 +79,7 @@ h1, h2, h3 {
 }
 
 .button:hover {
-    background-color: #d6a4f9;  /* Vivid pastel purple for hover effect */
+    background-color: #F16CA2;  /* Hover color for button */
 }
 
 /* Sections */
@@ -88,15 +94,15 @@ section {
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     h1 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #wrapper {
@@ -113,7 +119,7 @@ section {
 
     #sidebar nav ul li:hover a {
         font-size: 14px;
-        padding-left: 15px;
+        padding-left: 18px;
     }
 
     #main-content {
@@ -123,7 +129,7 @@ section {
 
 /* Navigation Bar Styling */
 #navbar {
-    background-color: #e0bbf4;  /* Lighter pastel purple for top navbar */
+    background-color: #E17085;  /* Match sidebar color */
     padding: 10px 20px;
     text-align: center;
 }
@@ -149,7 +155,7 @@ section {
 }
 
 #navbar ul li a:hover {
-    background-color: #d6a4f9;  /* Hover effect for navbar */
+    background-color: #F16CA2;  /* Hover effect for navbar */
     border-radius: 4px;
 }
 
