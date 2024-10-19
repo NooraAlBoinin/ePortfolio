@@ -15,28 +15,70 @@ body {
     padding: 20px;
 }
 
-/* Header and Navigation */
+/* Sticky Sidebar */
 #sidebar {
-    background-color: #2c3e50;  /* Darker color for header */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #2c3e50;  /* Darker color for sidebar */
     color: white;
+    padding-top: 20px;
+    z-index: 1;
+    transition: width 0.3s ease;
+}
+
+/* Sidebar links */
+#sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar nav ul li {
+    padding: 12px;
+    margin: 0;
 }
 
 #sidebar nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
     display: block;
-    transition: background-color 0.3s;
+    font-size: 18px;
+    transition: background-color 0.3s, padding 0.3s;
 }
 
 #sidebar nav ul li a:hover {
     background-color: #34495e;  /* Hover effect */
+    padding-left: 20px;  /* Slight movement when hovering */
 }
 
+/* Main content margin to avoid overlap with sidebar */
+#main-content {
+    margin-left: 260px;  /* Leave space for sidebar */
+    padding: 20px;
+}
 
+/* Responsive sidebar on smaller screens */
+@media (max-width: 768px) {
+    #sidebar {
+        width: 60px;
+    }
 
+    #sidebar nav ul li a {
+        font-size: 0;
+    }
 
+    #sidebar nav ul li:hover a {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    #main-content {
+        margin-left: 70px;
+    }
+}
 
 /* Headings */
 h1, h2, h3 {
@@ -91,7 +133,6 @@ section {
     }
 }
 
-
 /* Navigation Bar Styling */
 #navbar {
     background-color: #2c3e50;
@@ -123,7 +164,6 @@ section {
     background-color: #34495e;
     border-radius: 4px;
 }
-
 
 /* Tabs */
 .tab {
