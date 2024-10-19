@@ -118,8 +118,8 @@ section {
     }
 
     #sidebar nav ul li:hover a {
-        font-size: 18px;
-        padding-left: 20px;
+        font-size: 14px;
+        padding-left: 18px;
     }
 
     #main-content {
