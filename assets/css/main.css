@@ -28,6 +28,9 @@ body {
     z-index: 1;
     transition: width 0.3s ease;
     overflow-y: auto;  /* Add scrolling when content exceeds screen height */
+        scrollbar-width: none;  /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
+
 }
 
 /* Sidebar links */
