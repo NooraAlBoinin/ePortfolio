@@ -57,7 +57,7 @@ body {
 
 /* Main content margin to avoid overlap with sidebar */
 #main-content {
-    margin-left: 260px;  /* Leave space for sidebar */
+    margin-left: 280px;  /* Leave space for sidebar */
     padding: 20px;
 }
 
