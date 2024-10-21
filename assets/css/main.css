@@ -32,6 +32,10 @@ body {
     -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
 
 }
+/* Hide scrollbar for Webkit-based browsers (Chrome, Safari) */
+#sidebar::-webkit-scrollbar {
+    display: none;
+}
 
 /* Sidebar links */
 #sidebar nav ul {
