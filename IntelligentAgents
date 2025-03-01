@@ -1,1 +1,507 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Noora Alboinin's ePortfolio - Machine Learning</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
 
+        
+        <!-- Sidebar Navigation -->
+        <section id="sidebar">
+            <div class="inner">
+                <nav>
+                    <ul>
+                        <li><a href="#welcome">Welcome</a></li>
+                        <li><a href="#unit1">Unit 1: Introduction to Machine Learning (ML)</a></li>
+                        <li><a href="#unit2">Unit 2: Exploratory Data Analysis</a></li>
+                        <li><a href="#unit3">Unit 3: Correlation and Regression</a></li>
+                        <li><a href="#unit4">Unit 4: Linear Regression with Scikit-Learn</a></li>
+                        <li><a href="#unit5">Unit 5: Clustering</a></li>
+                        <li><a href="#unit6">Unit 6: Clustering with Python</a></li>
+                        <li><a href="#unit7">Unit 7: Introduction to Artificial Neural Networks (ANNs)</a></li>
+                        <li><a href="#unit8">Unit 8: Training an Artificial Neural Network</a></li>
+                        <li><a href="#unit9">Unit 9: Introduction to Convolutional Neural Networks (CNNs)</a></li>
+                        <li><a href="#unit10">Unit 10: CNN Interactive Learning</a></li>
+                        <li><a href="#unit11">Unit 11: Model Selection and Evaluation</a></li>
+                        <li><a href="#unit12">Unit 12: Industry 4.0 and Machine Learning</a></li>
+                        <li><a href="#final-reflection">Final Reflection</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <div id="main-content">
+         <!-- Welcome Section -->
+<section id="welcome" class="wrapper style1 fullscreen fade-up">
+    <div class="inner">
+        <h1>Welcome to My Machine Learning ePortfolio</h1>
+        <p>Join me on my journey through the Machine Learning Module, where I explore key concepts, practical applications, and personal growth through various projects and reflections.</p>
+
+        <h2>Professional Development Overview</h2>
+        <p>This module has been an enriching experience, providing opportunities to strengthen essential skills such as time management, critical thinking, and teamwork within a virtual environment. I have also deepened my understanding of machine learning, focusing on applying algorithms to real-world problems. Collaborative projects and individual tasks have allowed me to grow professionally, setting a solid foundation for future work in AI and machine learning.</p>
+
+        <!-- Tutor Brief -->
+        <div class="tutor-brief">
+            <h2>Meet My Tutor</h2>
+            <p>Special thanks to my tutor, Liz Coulter-Smith, whose guidance and expertise in machine learning and creative coding have been instrumental in my learning journey. Her support has greatly enhanced my overall experience and understanding.</p>
+        </div>
+    </div>
+</section>
+
+
+
+            
+            <!-- Unit 1 Section -->
+<section id="unit1" class="wrapper style2 fade-up">
+    <div class="inner">
+        <h2>Unit 1: Introduction to Machine Learning (ML)</h2>
+        <p>Machine Learning (ML) is revolutionizing industries by leveraging big data and advanced algorithms to drive automation and enhance decision-making. In this unit, I gained an understanding of the background and applications of ML, particularly in the context of Industry 4.0. <strong>Self-driving cars</strong>, <strong>automated banking</strong>, and <strong>personalized online recommendations</strong> are just a few examples of how ML is shaping our world (Zhao and Li, 2018).</p>
+
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li><strong>Integration of Big Data and ML</strong>: ML is instrumental in utilizing massive datasets to predict trends and automate tasks.</li>
+            <li><strong>Ethical and Legal Considerations</strong>: With the increasing use of large datasets, concerns about privacy breaches, data ownership, and adherence to regulations like GDPR have become paramount. Organizations must ensure that data is handled transparently and securely to protect individuals’ rights. Furthermore, ethical issues such as bias in algorithmic decision-making must be addressed to ensure fairness (Schwab and Zahid, 2020).</li>
+            <li><strong>Skills Developed</strong>:
+                <ul>
+                    <li>Programming</li>
+                    <li>Statistical analysis</li>
+                    <li>Critical thinking</li>
+                </ul>
+            </li>
+        </ul>
+        
+        <h3>Seminar Summary</h3>
+<p>This seminar introduced the module, outlining learning outcomes and expectations. The session covered the module structure, assessments, and how to approach collaborative work in a virtual environment. We also discussed key concepts in machine learning, including its ethical and social implications, such as the importance of fairness and accountability in AI systems.</p>
+<a href="https://drive.google.com/file/d/1wf-vxsNCd-k_zBZzh0mRPKkGcaJ68tsC/view?usp=sharing" class="button">Seminar 1: Introduction to Machine Learning</a>
+
+        <p>This unit also introduced me to important ML issues such as <strong>overfitting</strong> and <strong>bias</strong>, and how to mitigate these challenges through proper data management and model evaluation (Miroslav, 2021). This foundation will be crucial in my future studies and career in machine learning.</p>
+
+        <a href="https://drive.google.com/file/d/1UuuoZEMb4A0dmYLRCYRSoqKEvpHqOz0F/view?usp=sharing" class="button">Collaborative Discussion (1) Summary: Industry 4.0</a>
+
+
+        <h3>References</h3>
+        <p>
+            Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Springer.<br>
+            Schwab, K. and Zahid, A. (2020) <i>The Fourth Industrial Revolution</i>. World Economic Forum.<br>
+            Zhao, X. and Li, C. (2018) 'Deep learning in social computing', in Deng, L. and Liu, Y. (eds.) <i>Deep Learning in Natural Language Processing</i>. Singapore: Springer, pp. 255–288.
+        </p>
+    </div>
+</section>
+
+
+
+           <!-- Unit 2 Section with Visuals -->
+<section id="unit2" class="wrapper style3 fade-up">
+    <div class="inner">
+        <h2>Unit 2: Exploratory Data Analysis (EDA)</h2>
+        <p>In Unit 2, the concept of Exploratory Data Analysis (EDA) was introduced, emphasizing its importance in ensuring the reliability of data used in data science and AI projects. EDA plays a critical role in assessing raw data quality, identifying inconsistencies, and uncovering hidden patterns that may not be immediately visible to stakeholders or data analysts.</p>
+
+
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li><strong>Data Quality Assurance</strong>: EDA helps confirm the integrity of raw data by identifying errors, inconsistencies, and missing values.</li>
+            <li><strong>Feature Selection</strong>: It aids in selecting and modifying features for machine learning models, as some features may require refinement after initial analysis.</li>
+            <li><strong>Data Visualization</strong>: EDA techniques help visualize data to detect outliers, trends, and distributions, providing a better understanding of the data’s structure.</li>
+        </ul>
+
+<img src="images/eda.jpg" alt="EDA Process Flowchart" style="float:right; margin-right:15px; width:25%; height:auto;" />
+
+        <p>The unit outlined the process of conducting EDA, which includes exploring data features, detecting outliers, and visualizing the data. By the end of this unit, learners should be able to perform basic EDA, preprocess data for machine learning, and appreciate EDA's role in feature engineering for both supervised and unsupervised learning models (Miroslav, 2021).</p>
+       
+        <h3>Seminar Summary</h3>
+<p>This session focused on the techniques of Exploratory Data Analysis (EDA), including methods for understanding datasets, spotting anomalies, and visualizing data. We learned how to clean and prepare data for machine learning, gaining insights through univariate and multivariate analysis.</p>
+<a href="https://drive.google.com/file/d/1PpybJM_bAD0vE_LVAkAoaC2U9IfOszdV/view?usp=sharing" class="button">Seminar 2: Exploratory Data Analysis</a>
+
+        <!-- Clear float after content -->
+        <div style="clear:both;"></div>
+        
+        <h3>References</h3>
+        <p>
+            Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Springer.
+        </p>
+    </div>
+</section>
+
+
+           <!-- Unit 3 Section -->
+<section id="unit3" class="wrapper style2 fade-up">
+    <div class="inner">
+        <h2>Unit 3: Correlation and Regression</h2>
+        <p>In Unit 3, I explored how to use different methods of association and regression in real-world scenarios. These included <strong>simple regression</strong>, <strong>multiple regression</strong>, and <strong>polynomial regression</strong>. These methods are essential for understanding relationships between variables, such as how <em>age</em> and <em>income</em> may influence each other.</p>
+
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li>I gained a strong understanding of how to apply correlation and regression analysis to various data sets, making educated predictions about how factors relate.</li>
+            <li>I learned to critically discuss the <strong>professional</strong>, <strong>social</strong>, <strong>moral</strong>, and <strong>legal</strong> implications of using machine learning, especially with data sets that can influence real-world decisions.</li>
+            <li>I became aware of the challenges of applying machine learning methods to diverse datasets, and the importance of selecting and preparing data properly for analysis.</li>
+        </ul>
+
+        <a href="https://drive.google.com/file/d/1OmHGky9QiCAZlmxQwG5dWH74B3Myjxm3/view?usp=sharing" class="button">e-Portfolio Activity: Correlation and Regression</a>
+
+        <h3>References</h3>
+        <p>
+            Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Springer.
+        </p>
+    </div>
+</section>
+
+
+            <!-- Unit 4 Section -->
+<section id="unit4" class="wrapper style3 fade-up">
+    <div class="inner">
+        <h2>Unit 4: Linear Regression with Scikit-Learn</h2>
+        <p>In Unit 4, I learned how to apply <strong>linear regression</strong> using the <em>Scikit-Learn</em> library. This included modeling both simple and multivariate linear relationships, as well as evaluating model effectiveness through metrics such as <strong>R-squared</strong>. The unit emphasized working with complex datasets and optimizing models to achieve better accuracy.</p>
+
+
+<h3>Seminar Summary</h3>
+<p>In this seminar, we explored linear and multivariate regression using the Scikit-Learn library in Python. The session provided practical guidance on implementing regression models, evaluating their performance, and optimizing models through step-by-step exercises in Colab.</p>
+<a href="https://drive.google.com/file/d/1LxxqoDZAGmv7lEtladY3wxvY8Pdxc3Nf/view?usp=sharing" class="button">Seminar 3: Regression with Scikit-Learn</a>
+
+        
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li><strong>Regression Modelling with Big Datasets</strong>: I developed the ability to apply both simple and multivariate regression methods to model even the most challenging datasets.</li>
+            <li><strong>Testing and Improving Models</strong>: I learned to test and improve regression models by optimizing them for better performance, enhancing the reliability of predictions.</li>
+            <li><strong>Skills in Scikit-Learn</strong>: I further enhanced my proficiency with the Scikit-Learn library, learning to leverage its tools to accelerate the model-building process in machine learning projects.</li>
+        </ul>
+        
+        <h3>References</h3>
+        <p>
+            Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Springer.<br>
+            Scikit-learn, n.d. <i>Supervised Learning</i>. Available at: <a href="https://scikit-learn.org/stable/supervised_learning.html">https://scikit-learn.org/stable/supervised_learning.html</a>.<br>
+            Brownlee, J. (2018) <i>How to Calculate Correlation between Variables in Python</i>.
+        </p>
+    </div>
+</section>
+
+
+           <!-- Unit 5 Section -->
+<section id="unit5" class="wrapper style2 fade-up">
+    <div class="inner">
+        <h2>Unit 5: Clustering</h2>
+        <p>In Unit 5, I explored <strong>cluster analysis</strong>, which involves grouping objects based on their similarities. This method is used in various fields such as <em>pattern recognition</em>, <em>image analysis</em>, <em>bioinformatics</em>, and <em>machine learning</em>. The unit covered the fundamentals of clustering, various distance measurement techniques, and popular clustering algorithms such as <strong>K-means</strong> and <strong>agglomerative clustering</strong>. I also examined methods for assessing the quality of clusters.</p>
+
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li>Gained an understanding of the fundamental concepts behind clustering.</li>
+            <li>Developed the ability to apply and evaluate <strong>K-means</strong> and other clustering techniques.</li>
+            <li>Identified potential challenges and risks associated with clustering methods.</li>
+        </ul>
+
+        <a href="https://drive.google.com/file/d/1VCioefdSDHwuCaIPxn0XzI1voQ7Jo5p8/view?usp=sharing" class="button">e-Portfolio Activity: Jaccard Coefficient Calculations</a>
+
+        <h3>References</h3>
+        <p>
+            Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Springer.
+        </p>
+    </div>
+</section>
+
+
+
+        <!-- Unit 6 Section -->
+<section id="unit6" class="wrapper style3 fade-up">
+    <div class="inner">
+        <h2>Unit 6: Clustering with Python</h2>
+        <p>This week, I applied the <strong>K-means clustering</strong> method to real-world datasets using Python’s <em>scikit-learn</em> library. Building on the introduction to clustering from the previous week, we focused on how clustering analysis can be applied in real-world scenarios. The main topics covered were the application of Python libraries in K-means clustering and how clustering methods can solve complex problems within large datasets. Learners used <strong>scikit-learn</strong> to perform clustering analysis, select the appropriate tools, and interpret the results to derive meaningful insights.</p>
+
+        <p>K-means clustering is a machine learning method used to group data points based on their similarities or recurring patterns. Python’s scikit-learn library simplifies the implementation of K-means by offering various tools that streamline the process (Miroslav, 2021). This week focused on developing the essential skills required to perform and evaluate clustering effectively.</p>
+
+        
+        <h3>Reflection on AI Bias</h3>
+        <p>A critical challenge in clustering is the potential for bias in training data. If biased data is used, the clustering results can lead to unfair or inaccurate groupings, especially when applied in sensitive areas such as healthcare or law enforcement. For instance, biased data in healthcare can lead to unequal treatment recommendations, while in law enforcement, it can result in biased profiling of individuals. Understanding these risks emphasizes the need for ethical data handling and careful validation of clustering outcomes to prevent harm in real-world applications.</p>
+
+<h3>Seminar Summary</h3>
+<p>This seminar introduced the K-means clustering algorithm. We discussed its applications in real-world datasets, including how to select the optimal number of clusters and interpret clustering results. The session emphasized the importance of avoiding bias in the training data.</p>
+<a href="https://drive.google.com/file/d/1sNY5BbNwSVm7ARvJHxC9Rjec2_Q0_qlC/view?usp=sharing" class="button">Seminar 4: K-Means Clustering</a>
+
+        
+        <h3>Group Work Brief</h3>
+        <p>Our group worked collaboratively on the project titled, "Is the length of an Airbnb listing title correlated with its performance?" The project required us to analyze listing titles using K-means clustering to explore patterns and potential impacts on listing reviews. As part of this, my primary responsibility involved data pre-processing and feature selection, particularly preparing the dataset by counting the number of words in each title to evaluate its correlation with performance.</p>
+
+        <p>One of the key strengths of our group was the friendly and cooperative nature of the team. We frequently held meetings to discuss our progress and divided tasks efficiently, which contributed to the success of the project. I was particularly glad to work with such a dedicated and collaborative team. Together, we overcame challenges such as refining our methodology, which was highlighted in our feedback, particularly the need to expand the analysis by considering alternative variables (e.g., pricing or location) (Group 1 Feedback, 2024). Despite these challenges, we were able to improve the project and present insightful visualizations.</p>
+
+        <p>The feedback we received emphasized the need for deeper critical analysis, especially around the weak correlation identified between title length and listing performance. While the feedback highlighted areas for improvement, such as expanding our methods and clarifying our visualizations, it also commended our clear presentation and strong teamwork. Overall, this experience reinforced the importance of critical thinking and collaboration in machine learning projects.</p>
+
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li>I learned how to apply K-means clustering analysis to large datasets.</li>
+            <li>I developed the ability to use the <strong>scikit-learn</strong> library in Python for clustering analysis.</li>
+            <li>I gained experience in interpreting clustering results to make informed decisions.</li>
+            <li>Enhanced my teamwork and collaboration skills, particularly in dividing responsibilities and communicating effectively with team members.</li>
+            <li>Increased awareness of AI bias and the importance of ethical data handling in clustering tasks.</li>
+        </ul>
+
+        <a href="https://drive.google.com/file/d/1PjNQUAiiLXx5fdJEha6Jt-yCpTrYRVb1/view?usp=sharing" class="button">Team Contract</a>
+        <a href="https://drive.google.com/file/d/1c2mellgMj5rN3qWv7QavDypx2ttugfOH/view?usp=sharing" class="button">Outline based on suggested question</a>
+        <a href="https://drive.google.com/file/d/1-tWuxWuHQfzFsGrYthlnZAJtCPvoqH2q/view?usp=sharing" class="button">Brief about my work on the group project</a>
+        <a href="https://drive.google.com/file/d/1uNhyvgTBOCro3uLJOsOU8jNSqTo5GQ_M/view?usp=sharing" class="button">Tutor Feedback</a>
+
+        
+        <h3>References</h3>
+        <p>
+            Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Berlin: Springer.<br>
+            Scikit-learn (n.d.) <i>Sklearn.cluster.KMeans</i>. Available at: <a href="https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html">https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html</a><br>
+            Group 1 Feedback (2024) Assessment of Group 1’s Airbnb Project Report.
+        </p>
+    </div>
+</section>
+
+
+            <!-- Unit 7 Section -->
+<section id="unit7" class="wrapper style2 fade-up">
+    <div class="inner">
+        <h2>Unit 7: Introduction to Artificial Neural Networks (ANNs)</h2>
+        <p>In Unit 7, we explored <strong>Artificial Neural Networks (ANNs)</strong>, which are algorithms inspired by biological brain systems. Just like the human brain, ANNs can learn from their environment and adapt to make better decisions. ANNs play a crucial role across various fields, from marketing to automation, and are a cornerstone of the Industry 4.0 revolution, where machines are increasingly making decisions with minimal human input.</p>
+
+        <p>This unit covered the similarities between biological neurons and ANNs, enhancing our understanding of the mechanisms that make ANNs function. The lessons also introduced key components such as <strong>activation functions</strong>, which are essential to understanding how neural networks operate. By the end of the unit, learners will be able to critically evaluate ANNs, create basic ANN artefacts, and engage with emerging research in this field.</p>
+
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li>Critically understand the workings of Artificial Neural Networks (ANN).</li>
+            <li>Design and develop basic ANN artefacts.</li>
+            <li>Engage with emerging research on ANN and its applications.</li>
+        </ul>
+
+        <a href="https://drive.google.com/file/d/1u4cPnLYCHVN4oN-NSb_jiPEi6sIf34bg/view?usp=sharing" class="button">e-Portfolio Activity: Perceptron Activities</a>
+
+        <h3>References</h3>
+        <p>
+            Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Berlin: Springer.<br>
+            Sharma, A. (2017) <i>Understanding Activation Functions in Neural Networks</i>. Available at: <a href="https://medium.com/datadriveninvestor/understanding-activation-functions-in-neural-networks-9491262884e0">https://medium.com/datadriveninvestor/understanding-activation-functions-in-neural-networks-9491262884e0</a><br>
+            Vaio, A.D., Palladino, R., Hassan, R. and Escobar, O. (2020) 'Artificial intelligence and business models in the sustainable development goals perspective: A systematic literature review', <i>Journal of Business Research</i>, 121, pp. 283-314. DOI: <a href="https://doi.org/10.1016/j.jbusres.2020.08.019">https://doi.org/10.1016/j.jbusres.2020.08.019</a>
+        </p>
+    </div>
+</section>
+
+
+            <!-- Unit 8 Section -->
+<section id="unit8" class="wrapper style3 fade-up">
+    <div class="inner">
+        <h2>Unit 8: Training an Artificial Neural Network</h2>
+        <p>In Unit 8, we focused on how <strong>Artificial Neural Networks (ANNs)</strong> learn by adjusting weights to improve accuracy and minimize errors using the <strong>backpropagation</strong> algorithm. Backpropagation works by sending error signals backwards through the network, helping to refine the model's predictions. The practical tasks this week centered around creating ANN artefacts and applying <strong>gradient descent</strong> to achieve optimal results.</p>
+
+        <p>The readings also explored how ANNs can be used in business, such as in customer service automation and fraud detection (Mach, 2021). Additionally, the readings highlighted potential risks, such as AI-generated content (Hutson, 2021), and discussed new research aimed at increasing transparency in AI decision-making (Castelvecchi, 2016).</p>
+        
+        <h3>Seminar Summary</h3>
+<p>This session provided an introduction to Artificial Neural Networks (ANNs) and their applications. We discussed how ANNs are modeled after biological neural networks and explored their role in supervised learning tasks, particularly in areas like image recognition.</p>
+        <a href="https://drive.google.com/file/d/1yjoLf7ZLgVInhN10Q50YBcXzSvPJnsmP/view?usp=sharing" class="button">Seminar 5: Artificial Neural Networks</a>
+
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li>Understand how ANNs handle errors using backpropagation.</li>
+            <li>Develop and optimize ANN artefacts using practical methods.</li>
+            <li>Critically analyze emerging research related to ANNs and their applications.</li>
+        </ul>
+
+        <a href="https://drive.google.com/file/d/17hR-4LSNv4ocUzK3kAPMAd9GZj2wkun5/view?usp=sharing" class="button">e-Portfolio Activity: Gradient Cost Function</a>
+
+         <a href="https://drive.google.com/file/d/1EtsPWZ6YHOtBKOpGjdGO-0EBvJkbSeuq/view?usp=sharing" class="button">Collaborative Discussion (2) Summary: Legal and Ethical views on ANN applications </a>
+
+
+
+        
+        <h3>References</h3>
+        <p>
+            Castelvecchi, D. (2016) ‘Can we open the black box of AI?’, <i>Nature</i>, 538(7623), pp. 20–23. Available at: <a href="https://doi.org/10.1038/538020a">https://doi.org/10.1038/538020a</a> (Accessed: 18 October 2024).<br>
+            Hutson, M. (2021) ‘Robo-writers: the rise and risks of language-generating AI’, <i>Nature</i>, 591(7848), pp. 22–25. Available at: <a href="https://doi.org/10.1038/d41586-021-00530-0">https://doi.org/10.1038/d41586-021-00530-0</a> (Accessed: 18 October 2024).<br>
+            Mach, P. (2021) <i>10 Business Applications of Neural Networks</i>. Available at: [Insert URL] (Accessed: 18 October 2024).<br>
+            Mayo, M. (2017) <i>Explained: Updating Weights with Gradient Descent & Backpropagation</i>. Available at: [Insert URL] (Accessed: 18 October 2024).<br>
+            Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Berlin: Springer. Available at: <a href="https://doi.org/10.1007/978-3-662-52844-0">https://doi.org/10.1007/978-3-662-52844-0</a> (Accessed: 18 October 2024).
+        </p>
+    </div>
+</section>
+
+
+
+           <!-- Unit 9 Section -->
+<section id="unit9" class="wrapper style2 fade-up">
+    <div class="inner">
+        <h2>Unit 9: Introduction to Convolutional Neural Networks (CNNs)</h2>
+        <p>This unit focuses on <strong>Convolutional Neural Networks (CNNs)</strong>, a powerful type of Artificial Neural Networks (ANNs) widely used in <em>computer vision</em>. CNNs enable machines to understand and analyze images, playing a vital role in industries such as <strong>healthcare</strong> (e.g., medical imaging), <strong>transportation</strong> (e.g., self-driving cars), and <strong>agriculture</strong> (e.g., crop monitoring by drones). Due to their ability to detect, classify, and segment visual data, CNNs have become an essential tool in machine learning for image analysis.</p>
+
+        <p>This unit provides an in-depth look at how CNN algorithms function, along with relevant Python libraries and real-world examples. By engaging with this unit, learners will enhance their skills in basic computer vision tasks and gain insights into how CNN applications are used across various fields.</p>
+
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li>Understand the application and importance of computer vision: Learners will comprehend how CNNs are utilized across industries and recognize their significance in automating tasks related to image and video processing.</li>
+            <li>Undertake basic computer vision tasks: Learners will develop the ability to implement basic CNN models, applying them to common computer vision challenges such as image classification and object detection.</li>
+        </ul>
+
+        <a href="https://drive.google.com/file/d/1zOBKjq4cfoyTYISJkMMAr0uNyMh8ZcnW/view?usp=sharing" class="button">e-Portfolio Activity - CNN Model Activity</a>
+
+        <h3>References</h3>
+        <p>
+            Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Berlin: Springer.<br>
+            Parisi, L., Neagu, D., Ma, R. and Campean, F. (2022) ‘Quantum ReLU activation for Convolutional Neural Networks to improve diagnosis of Parkinson’s disease and COVID-19’, <i>Expert Systems with Applications</i>, 191(115892). Available at: <a href="https://doi.org/10.1016/j.eswa.2021.115892">https://doi.org/10.1016/j.eswa.2021.115892</a> (Accessed: 18 October 2024).<br>
+            Wall, M. (2019) ‘Biased and wrong? Facial recognition tech in the dock’, <i>BBC News</i>. Available at: <a href="https://www.bbc.co.uk/news/business-48842750">https://www.bbc.co.uk/news/business-48842750</a> (Accessed: 18 October 2024).
+        </p>
+    </div>
+</section>
+
+
+           <!-- Unit 10 Section -->
+<section id="unit10" class="wrapper style3 fade-up">
+    <div class="inner">
+        <h2>Unit 10: CNN Interactive Learning</h2>
+        <p>Unit 10 provided an interactive learning tool to enhance understanding of <strong>Convolutional Neural Networks (CNNs)</strong>. This tool visually represents CNN algorithms and allows users to experiment with CNN structures, weights, and biases. Although interactive, the tool helps reinforce CNN concepts by enabling learners to modify the algorithm and observe real-time results.</p>
+
+        <p>This unit focused on hands-on experience with CNNs, enabling students to tweak and optimize different parts of the algorithm to better understand how these adjustments influence performance. By the end of the unit, learners gained deeper insights into CNNs and their application in computer vision projects.</p>
+
+        <h3>Seminar Summary</h3>
+<p>This seminar covered Convolutional Neural Networks (CNNs) and their use in computer vision. We learned how CNNs are structured, including convolutional and pooling layers, and discussed their effectiveness in recognizing and classifying images in large datasets.</p>
+<a href="https://drive.google.com/file/d/1Z8sUcxdk2NQ0NxKNwZbn9iBUNixeUzka/view?usp=sharing" class="button">Seminar 6: Convolutional Neural Networks</a>
+
+        
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li><strong>Understand the application of CNNs</strong>: Learners developed a comprehensive understanding of how CNNs are applied to solve complex problems in industries such as healthcare, transportation, and entertainment.</li>
+            <li><strong>Perform basic computer vision tasks</strong>: Learners gained the skills to manipulate CNN architectures, adjust weights and biases, and explore how these changes impact CNN performance in real-world scenarios.</li>
+        </ul>
+
+
+        
+        <h3>References</h3>
+        <p>
+            Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Berlin: Springer.<br>
+            Wang, J., Turko, R., Shaikh, O., Park, H., Das, N., Hohman, F., Kahng, M. and Chau, P. (2021) <i>CNN Explainer: Learn Convolutional Neural Network (CNN) in Your Browser</i>. Available at: <a href="https://poloclub.github.io/cnn-explainer">https://poloclub.github.io/cnn-explainer</a> (Accessed: 18 October 2024).
+        </p>
+    </div>
+</section>
+
+<!-- Unit 11 Section -->
+<section id="unit11" class="wrapper style2 fade-up">
+    <div class="inner">
+        <h2>Unit 11: Model Selection and Evaluation</h2>
+        <p>Unit 11 focused on <strong>model selection</strong> and <strong>evaluation</strong>, two crucial steps in the machine learning workflow. Just as selecting the right tool for a task is important, choosing the right model for tasks like classification or prediction significantly impacts the model's accuracy and real-world applicability. This unit explored the process of selecting the appropriate model and evaluating its performance to enhance its usefulness.</p>
+
+        <p>Key topics covered include how to choose models for specific tasks, assess their performance using various metrics, and improve them through optimization. Machine learning professionals can significantly enhance their models by systematically critiquing and refining model performance. Additionally, accountability and transparency are critical when deploying these models, especially in high-risk fields like autonomous vehicles or healthcare. Ensuring that decisions made by these models are understandable and justifiable is essential for maintaining trust in machine learning applications.</p>
+
+        <h3>Assignment Brief: Neural Network Models for Object Recognition</h3>
+        <p>This individual assignment required us to develop a 20-minute presentation that demonstrates the assignment activities and accounts for 40% of the final module mark. The topic was <strong>Neural Network Models for Object Recognition</strong>, a highly relevant area in machine learning, particularly in sectors like autonomous vehicles, facial recognition, and video surveillance. The core focus was on building a neural network using the <strong>CIFAR-10</strong> image dataset, which consists of 60,000 color images across 10 object categories, and assessing the model's performance. The assignment included several key components, such as:</p>
+
+        <ul>
+            <li>Partitioning the CIFAR-10 dataset into training, validation, and test sets.</li>
+            <li>Designing the neural network architecture, with a focus on convolutional layers, pooling layers, and fully connected layers.</li>
+            <li>Choosing and applying activation functions like <strong>ReLU</strong> and using <strong>categorical cross-entropy</strong> as the loss function.</li>
+            <li>Training the model over a specified number of epochs while tuning hyperparameters like learning rate and batch size.</li>
+            <li>Evaluating the model’s accuracy and generalization using metrics such as precision, recall, and F1-score.</li>
+        </ul>
+
+        <p>The presentation required a thorough demonstration of the model’s architecture and performance, alongside critical reflections on the learning outcomes from the task. One of the major challenges was to prevent overfitting, which we addressed by implementing data augmentation techniques like horizontal flipping and rotation (as reflected in our slides). Accountability and transparency in model deployment were particularly important in this task, as models used in autonomous vehicles or healthcare must be thoroughly validated to avoid unintended outcomes. Clear communication of how models make decisions is key to building trust and ensuring ethical use in real-world applications.</p>
+
+        <p>As of now, I have not yet received feedback from the tutor on the Unit 11 assignment. However, I am confident in the thoroughness of my analysis and look forward to constructive feedback to improve my understanding and application of model selection and evaluation techniques.</p>
+
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li>Understand the importance of model selection and optimization: Learn how to select and optimize models for better performance.</li>
+            <li>Critically evaluate models: Gain skills to systematically assess and improve model accuracy using standard metrics.</li>
+            <li>Develop skills in object recognition through the design and evaluation of a CNN using the CIFAR-10 dataset.</li>
+            <li>Recognize the importance of accountability and transparency in deploying machine learning models, especially in high-stakes applications like autonomous vehicles.</li>
+            <li>Improve presentation and communication skills by delivering a 20-minute video demonstration of the assignment activities.</li>
+        </ul>
+
+        <a href="https://drive.google.com/file/d/16bZYD0Q2oRQmeQjLrMDqYNYJPPwDfqYe/view?usp=drive_link" class="button">e-Portfolio Activity: Model Performance Measurement</a>
+
+        <h3>References</h3>
+        <p>
+            Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Berlin: Springer.<br>
+            Novaković, J.Dj., Veljović, A., Ilić, S.S., Papić, Z. and Milica, T. (2017) ‘Evaluation of Classification Models in Machine Learning’, <i>Theory and Applications of Mathematics & Computer Science</i>, 7(1), pp. 39–46.<br>
+            Joprdan, J. (2017) <i>Evaluating a Machine Learning Model</i>. Available at: [Insert URL] (Accessed: 18 October 2024).<br>
+            Nighania, K. (2018) <i>Various Ways to Evaluate a Machine Learning Model’s Performance</i>. Available at: [Insert URL] (Accessed: 18 October 2024).
+        </p>
+    </div>
+</section>
+
+
+
+            <!-- Unit 12 Section -->
+<section id="unit12" class="wrapper style3 fade-up">
+    <div class="inner">
+        <h2>Unit 12: Industry 4.0 and Machine Learning</h2>
+        <p>Unit 12 explored how <strong>Industry 4.0</strong> is revolutionizing industries, driven by advancements in <em>Information and Communication Technologies (ICT)</em>, machine learning, and data fusion strategies. Industry 4.0 represents the shift towards "smart" manufacturing, where tools collect vast amounts of data that machine learning algorithms process to optimize business processes, enhance decision-making, and improve product quality. One notable concept introduced was the use of <strong>digital twins</strong>—virtual replicas of real-world assets that use real-time data for simulation and performance prediction. This highlights machine learning’s vital role in industrial applications (Diez-Olivan et al., 2019).</p>
+
+        <p>The unit also addressed the ethical challenges posed by <strong>deepfakes</strong> and audiovisual disinformation. With the rise of AI-generated content, businesses are facing new issues of trust and authenticity in the digital age (CDEI, 2019). Additionally, the unit discussed the growing job opportunities in Industry 4.0, emphasizing the importance of skills in AI, machine learning, and data science for shaping the future of smart manufacturing and beyond.</p>
+
+
+        <h3>Seminar Summary</h3>
+<p>In this final seminar, we explored the future of machine learning in various industries. Discussions focused on emerging trends, including deep learning advancements, ethical considerations, and the role of machine learning in shaping the future workforce.</p>
+<a href="https://drive.google.com/file/d/1q1wzsKVcMOLKGGwjvzUnELVPsqIo_gdY/view?usp=sharing" class="button">Seminar 7: Future of Machine Learning</a>
+
+        
+        <h3>Learning Outcomes</h3>
+        <ul>
+            <li>Understand the challenges and opportunities of the Industry 4.0 revolution: Learn how Industry 4.0 is reshaping industries by integrating machine learning, data fusion, and digital twins into manufacturing and operational processes.</li>
+            <li>Appreciate the impact of machine learning on future societies: Explore how machine learning, through techniques like predictive analytics and intelligent monitoring, will transform industries and the job market in the context of Industry 4.0.</li>
+        </ul>
+
+
+        <h3>References</h3>
+        <p>
+            CDEI (2019) <i>Deepfakes and Audiovisual Disinformation</i>. Available at: [Insert URL] (Accessed: 18 October 2024).<br>
+            Diez-Olivan, A., Del Ser, J., Galar, D. and Sierra, B. (2019) ‘Data fusion and machine learning for industrial prognosis: Trends and perspectives towards Industry 4.0’, <i>Information Fusion</i>, 50, pp. 92–111. Available at: <a href="https://doi.org/10.1016/j.inffus.2018.10.005">https://doi.org/10.1016/j.inffus.2018.10.005</a> (Accessed: 18 October 2024).<br>
+            Walter, J. (2020) <i>Deepfakes: The Dark Origins of Fake Videos and Their Potential to Wreak Havoc Online</i>. Available at: [Insert URL] (Accessed: 18 October 2024).<br>
+            OpenAI (2021) <i>DALL·E: Creating Images from Text</i>. Available at: [Insert URL] (Accessed: 18 October 2024).
+        </p>
+    </div>
+</section>
+
+
+            
+<!-- Final Reflection Section -->
+<section id="final-reflection" class="wrapper style2 fade-up">
+    <div class="inner">
+        <h2>Final Reflection</h2>
+        <p>The lesson on machine learning has completely changed the way I think about things, from basic ideas to real-life examples. I didn't know much about machine learning at first, but now I'm comfortable with the different methods and how they affect my professional, social, and ethical life.</p>
+
+        <h3>WHAT: Key Experiences and Learning Outcomes</h3>
+        <p>Hands-on activities in this module helped me learn how AI and machine learning are changing businesses as part of the Fourth Industrial Revolution. Working on a Convolutional Neural Network (CNN) for picture classification with the CIFAR-10 dataset was a key experience. This was my first time working with CNNs, and it was both hard and fun to try to make them work like real neural networks. I learnt a lot about machine learning by setting up neural layers, pooling layers, and backpropagation to make the model work better. The first results were good, but I later learnt that changing hyperparameters, like learning rates and epochs, was key to making the model work better (Miroslav, 2021).</p>
+        <p>In a very sobering moment, the Boeing 737 Max crash case study showed how dangerous it is to have automated systems that don't work right. It also showed how important it is to test things thoroughly and fairly, especially in important fields like healthcare and aviation (Wall, 2019). Also, talking about AI bias and data privacy made me very aware of the unethical effects of badly chosen training data, especially in law enforcement and healthcare, where unfair results can have very bad effects.</p>
+
+        <h3>SO WHAT: Interpretation and Impact</h3>
+        <p>These events have had a huge impact on how I think about the moral, economic, and social effects of machine learning. It's become clear to me that fairness, transparency, and responsibility are just as important as accuracy in models. For example, the biassed datasets we used for our Unit 6 group project made me realise how easy it is for machine learning models to reinforce social biases if they are not used properly. As part of our project, I helped find and fix these kinds of flaws by preprocessing the data and choosing the right features. This made me more aware of the professional duties that come with using machine learning models (Schwab and Zahid, 2020).</p>
+        <p>At first, I found it hard to understand how to use model evaluation measures like AUC and R², but as time went on, I realised how important they are for choosing and improving models. These measures make it possible to improve model performance in a structured way. The balance between not overfitting and making sure generalisation became clearer as I tried out different methods for adding to the data, like horizontal flipping and rotation, which we used in our project to stop overfitting (Miroslav, 2021).</p>
+        <p>Working with others in groups was another important way to learn. Because I was in charge of Unit 11, I led the model review project. It was hard to manage a team that worked in different time zones, but it helped me improve my leadership and communication skills. To make sure that jobs were assigned correctly and deadlines were met, coordination and communication had to be clear. Peer feedback confirmed that the things I did to help organise the team and move the project forward were valued.</p>
+
+        <h3>NOW WHAT: Future Applications and Growth</h3>
+        <p>I'm going to use the things I learnt in this lesson on bigger and more complicated machine learning projects in the future. I want to learn more about unsupervised learning and reinforcement learning in particular because I think they have a lot of promise for real-time data analysis, especially in finance and healthcare. Another thing I'm working on is getting better at choosing models and judging them. In order to make models that are useful in the real world, I want to make sure that they are not only correct but also open, honest, and moral (Rolfe et al., 2001).</p>
+        <p>When I use machine learning models, accountability and openness are now very important to me, especially in high-stakes situations like self-driving cars and face recognition systems. In all of my future projects, I will put fairness, explainability, and data security at the top of my list. For example, it is very important to make sure that models have clear ways of making decisions when they are used in situations that affect people's lives. The things I've learnt in this subject have given me the tools to approach future projects with a higher sense of ethics (Schwab and Zahid, 2020).</p>
+        <p>The teamwork activities in this lesson have also been very helpful. Working with a team that is spread out can be hard, but it's important to use tools like Trello and Slack to keep track of tasks and talk to each other. I'm going to use these tools on future projects to make working together easier and make sure everyone is on the same page. I also know how important it is to have clear roles and tasks so that people don't mix up their work and everyone is held accountable within the team.</p>
+        <p>Another important thing to remember is that we need to keep looking into the social duties of people who work with AI. Concerns about AI bias, data privacy, and the difficulties of following rules like GDPR have made me more aware of the legal and social aspects of my job. As my job in AI continues to grow, I will make sure that the machine learning systems I create are not only technically sound but also morally sound (Wall, 2019).</p>
+        <p>Finally, I can say that this module has greatly improved my technical skills and professional knowledge. I feel ready to take on the challenges of the machine learning field because I have mastered difficult algorithms like CNNs and thought about the larger ethical aspects of AI. The things I've learnt in this module will definitely affect my future job, and I can't wait to use what I've learnt in real life.</p>
+
+        <h3>References</h3>
+        <p>Miroslav, K. (2021) <i>An Introduction to Machine Learning</i>. 3rd edn. Berlin: Springer.<br>
+        Rolfe, G., Freshwater, D. & Jasper, M. (2001) <i>Critical Reflection in Nursing and the Helping Professions: A User’s Guide</i>. Basingstoke: Palgrave Macmillan.<br>
+        Schwab, K. and Zahid, A. (2020) <i>The Fourth Industrial Revolution</i>. World Economic Forum. Available at: <a href="https://www.weforum.org/about/the-fourth-industrial-revolution-by-klaus-schwab">https://www.weforum.org/about/the-fourth-industrial-revolution-by-klaus-schwab</a> (Accessed: 18 October 2024).<br>
+        Wall, M. (2019) ‘Biased and wrong? Facial recognition tech in the dock’, <i>BBC News</i>. Available at: <a href="https://www.bbc.co.uk/news/business-48842750">https://www.bbc.co.uk/news/business-48842750</a> (Accessed: 18 October 2024).
+        </p>
+
+        <a href="https://drive.google.com/file/d/1CTzRGMFcMO3w5xLcGmLnPdNIQsyaO-Gy/view?usp=sharing" class="button">Final Reflection</a>
+
+
+        
+    </div>
+</section>
+
+       <!-- Footer -->
+        <footer id="footer" class="wrapper style1-alt">
+            <div class="inner">
+                <ul class="menu">
+                    <li>&copy; Noora Alboinin. All rights reserved.</li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
