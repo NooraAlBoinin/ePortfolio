@@ -228,13 +228,13 @@ section {
 
 .skill-box h4 {
   margin-top: 0;
-  font-size: 0.95em; /* reduced */
+  font-size: 0.8em; /* reduced */
   color: #333;
   font-weight: 600;
 }
 
 .skill-box p {
-  font-size: 0.85em; /* reduced */
+  font-size: 0.7em; /* reduced */
   color: #555;
   margin: 0.5rem 0 0 0;
 }
