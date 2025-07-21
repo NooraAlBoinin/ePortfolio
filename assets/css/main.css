@@ -53,13 +53,13 @@ body {
     color: white;
     text-decoration: none;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     transition: background-color 0.3s, padding 0.3s;
 }
 
 #sidebar nav ul li a:hover {
     background-color: #81A1C1;  /* Soft Blue for hover */
-    padding-left: 20px;  /* Slight movement when hovering */
+    padding-left: 18px;  /* Slight movement when hovering */
 }
 
 /* Main content margin to avoid overlap with sidebar */
@@ -101,15 +101,15 @@ section {
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     #wrapper {
@@ -125,7 +125,7 @@ section {
     }
 
     #sidebar nav ul li:hover a {
-        font-size: 16px;
+        font-size: 14px;
         padding-left: 20px;
     }
 
@@ -156,7 +156,7 @@ section {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
     transition: background-color 0.3s;
 }
@@ -180,7 +180,7 @@ section {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .tab button:hover {
