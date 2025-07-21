@@ -236,13 +236,13 @@ section {
 
 .skill-box h4 {
   margin-top: 0;
-  font-size: 1.1em;
+  font-size: 1em;
   color: #333;
   font-weight: bold;
 }
 
 .skill-box p {
-  font-size: 0.95em;
+  font-size: 0.9em;
   color: #555;
   margin: 0.5rem 0 0 0;
 }
