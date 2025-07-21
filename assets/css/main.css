@@ -76,6 +76,8 @@ body {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
     color: #2e3440;
+        font-size: 16px !important;
+
     font-family: 'Roboto Slab', serif;
     margin-bottom: 20px;
     font-size: 16px; /* Updated heading size */
